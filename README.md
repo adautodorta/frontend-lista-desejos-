@@ -1,4 +1,4 @@
-template react vite
+Lista de Desejos - App criado com template criado pelo aluno Adauto
 ---
 
 ## Biblioteca de componentes
