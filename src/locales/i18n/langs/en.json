@@ -1,0 +1,15 @@
+{
+  "LOGO_FAST_EVENTOS": "Company logo - FastEventos",
+  "FIELD_IS_REQUIRED": "The password fields must be filled in",
+  "THE_PASSWORD_FIELDS_MUST_BE_THE_SAME": "The password fields must be the same",
+  "PASSWORD_DOES_NOT_MEET_REQUIREMENTS": "The password fields do not meet the requirements listed below",
+  "PASSWORD_REGISTRATION": "Password Registration",
+  "ENTER_YOUR_NEW_PASSWORD": "Enter your new password",
+  "CONFIRM_THE_NEW_PASSWORD": "Confirm the new password",
+  "THE_PASSWORD_MUST_CONTAIN": "The password must contain:",
+  "AT_LEAST_ONE_NUMBER": "At least one number",
+  "WITH_AT_LEAST_ONE_CAPITAL_LETTER": "With at least one capital letter",
+  "AT_LEAST_8_CHARACTERS": "At least 8 characters",
+  "AT_LEAST_ONE_SPECIAL_CHARACTER": "At least one special character",
+  "REGISTER_PASSWORD": "Register Password"
+}

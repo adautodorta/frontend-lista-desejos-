@@ -1,0 +1,17 @@
+{
+  "include": ["src", "vitest.setup.ts"],
+  "extends": ["@tsconfig/vite-react/tsconfig"],
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.specs.tsbuildinfo",
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "noEmit": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}

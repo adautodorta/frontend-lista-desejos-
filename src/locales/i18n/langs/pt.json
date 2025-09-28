@@ -1,0 +1,15 @@
+{
+  "LOGO_FAST_EVENTOS": "Logo da empresa - FastEventos",
+  "FIELD_IS_REQUIRED": "Os campos de senha devem ser preenchidos",
+  "THE_PASSWORD_FIELDS_MUST_BE_THE_SAME": "Os campos de senha precisam ser iguais",
+  "PASSWORD_DOES_NOT_MEET_REQUIREMENTS": "Os campos de senha não possuem os requisitos necessários listados abaixo",
+  "PASSWORD_REGISTRATION": "Cadastro de Senha",
+  "ENTER_YOUR_NEW_PASSWORD": "Insira sua nova senha",
+  "CONFIRM_THE_NEW_PASSWORD": "Confirme a nova senha",
+  "THE_PASSWORD_MUST_CONTAIN": "A senha precisa conter:",
+  "AT_LEAST_ONE_NUMBER": "Ao menos um número",
+  "WITH_AT_LEAST_ONE_CAPITAL_LETTER": "Com pelo menos uma letra maiúscula",
+  "AT_LEAST_8_CHARACTERS": "No mínimo 8 caracteres",
+  "AT_LEAST_ONE_SPECIAL_CHARACTER": "Ao menos um caractere especial",
+  "REGISTER_PASSWORD": "Cadastrar Senha"
+}
