@@ -2,7 +2,7 @@
   "collection": {
     "item": [
       {
-        "id": "1f88d7e8-07bc-4e7e-8394-74188ae93503",
+        "id": "88fc2164-a2b7-40b1-8feb-74531dbbfbd0",
         "name": "1. Login User",
         "request": {
           "url": {
@@ -43,7 +43,7 @@
           {
             "listen": "test",
             "script": {
-              "id": "c137a5a8-01fb-4278-912e-ceb231ab7476",
+              "id": "6d5452e7-9bfe-42e9-ab3a-f2d315b295ea",
               "type": "text/javascript",
               "exec": [
                 "pm.test('Status code is 200', function () {",
@@ -63,13 +63,13 @@
                 "    pm.collectionVariables.set('accessToken', jsonData.access_token);",
                 "});"
               ],
-              "_lastExecutionId": "9b9cab7f-0db6-4169-a083-4618022d1671"
+              "_lastExecutionId": "272ee553-19c0-412c-ba92-18b861e99955"
             }
           }
         ]
       },
       {
-        "id": "c37e1a00-2857-425e-85a3-e5d4c338b617",
+        "id": "2104bb9e-58f4-4588-b32c-5287196ff6c1",
         "name": "2. Test Invalid Login",
         "request": {
           "url": {
@@ -110,14 +110,14 @@
           {
             "listen": "test",
             "script": {
-              "id": "b5b585d2-5de3-4df8-a05f-4b11efe1ab80",
+              "id": "d4fafbdf-38bd-4fe4-b135-4df7e45ac45c",
               "type": "text/javascript",
               "exec": [
                 "pm.test('Status code is 400 for invalid credentials', function () {",
                 "    pm.response.to.have.status(400);",
                 "});"
               ],
-              "_lastExecutionId": "68254f41-738d-4ea4-92c1-efa5dcc02afb"
+              "_lastExecutionId": "3d83ec29-ea78-461a-be81-c4c30d1757fc"
             }
           }
         ]
@@ -147,7 +147,7 @@
       }
     ],
     "info": {
-      "_postman_id": "b7a667d0-3dd0-4b46-82f5-ded616406008",
+      "_postman_id": "3c38cd89-b3f4-4e69-87f8-70ab2d35834b",
       "name": "Lista de Desejos API Tests",
       "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
       "description": {
@@ -183,7 +183,7 @@
     ]
   },
   "globals": {
-    "id": "4825e21a-2862-4f00-b938-e526ce84b5b4",
+    "id": "78adbde6-32f9-4cb1-a275-5c5079bb772a",
     "values": []
   },
   "run": {
@@ -235,10 +235,10 @@
       }
     },
     "timings": {
-      "responseAverage": 298,
-      "responseMin": 128,
-      "responseMax": 468,
-      "responseSd": 170,
+      "responseAverage": 553.5,
+      "responseMin": 157,
+      "responseMax": 950,
+      "responseSd": 396.5,
       "dnsAverage": 0,
       "dnsMin": 0,
       "dnsMax": 0,
@@ -247,8 +247,8 @@
       "firstByteMin": 0,
       "firstByteMax": 0,
       "firstByteSd": 0,
-      "started": 1759079822951,
-      "completed": 1759079823600
+      "started": 1759081876886,
+      "completed": 1759081878044
     },
     "executions": [
       {
@@ -261,11 +261,11 @@
           "eof": false,
           "bof": true,
           "cr": false,
-          "ref": "410597e9-e8eb-43f4-9521-b24ad38282cf",
-          "httpRequestId": "af7c4c14-1855-42fe-9ad2-a5682033c63a"
+          "ref": "43d3e8d6-cf77-480a-bc2d-21dd0df478fd",
+          "httpRequestId": "b27807bc-3acd-49de-ab79-6fd8756bd2ba"
         },
         "item": {
-          "id": "1f88d7e8-07bc-4e7e-8394-74188ae93503",
+          "id": "88fc2164-a2b7-40b1-8feb-74531dbbfbd0",
           "name": "1. Login User",
           "request": {
             "url": {
@@ -306,7 +306,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "c137a5a8-01fb-4278-912e-ceb231ab7476",
+                "id": "6d5452e7-9bfe-42e9-ab3a-f2d315b295ea",
                 "type": "text/javascript",
                 "exec": [
                   "pm.test('Status code is 200', function () {",
@@ -326,7 +326,7 @@
                   "    pm.collectionVariables.set('accessToken', jsonData.access_token);",
                   "});"
                 ],
-                "_lastExecutionId": "9b9cab7f-0db6-4169-a083-4618022d1671"
+                "_lastExecutionId": "272ee553-19c0-412c-ba92-18b861e99955"
               }
             }
           ]
@@ -378,7 +378,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "27a42426-29c5-4949-8a41-d11fca9ee444",
+              "value": "4a672e48-fedd-483e-900a-5a362cbcf73f",
               "system": true
             },
             {
@@ -409,13 +409,13 @@
           }
         },
         "response": {
-          "id": "d1c5f242-3a7c-4691-8c7c-2a4f01a08c43",
+          "id": "31b33e21-3fc0-4806-8274-60dd85658e0b",
           "status": "OK",
           "code": 200,
           "header": [
             {
               "key": "Date",
-              "value": "Sun, 28 Sep 2025 17:17:03 GMT"
+              "value": "Sun, 28 Sep 2025 17:51:17 GMT"
             },
             {
               "key": "Content-Type",
@@ -431,7 +431,7 @@
             },
             {
               "key": "CF-Ray",
-              "value": "9864e4601bf1e0e9-GIG"
+              "value": "98651685ffe86d5a-GIG"
             },
             {
               "key": "CF-Cache-Status",
@@ -459,7 +459,7 @@
             },
             {
               "key": "sb-request-id",
-              "value": "01999153-f818-7e54-9222-65986a19df6c"
+              "value": "01999173-4fcb-7775-ad2b-1fdf6404243c"
             },
             {
               "key": "X-Content-Type-Options",
@@ -471,11 +471,11 @@
             },
             {
               "key": "x-envoy-upstream-service-time",
-              "value": "91"
+              "value": "191"
             },
             {
               "key": "Set-Cookie",
-              "value": "__cf_bm=f8du5m3.CAGRJ9GMlfVMoViJLsR2nDrHkA6uebcKOVM-1759079823-1.0.1.1-bRT0EkxI.KNfaYiaw5OLqj7yFaQDrCGQJSpihOiSWP4cAI5Swx9rDZNdgN7bFcx.lipWqwzWwsB15.uWYcseFlsjIAwrapSAtWfSKBE1AOA; path=/; expires=Sun, 28-Sep-25 17:47:03 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None"
+              "value": "__cf_bm=10eXQE5P_k0JoLcqvVqdz7qN.aUgxGEfd19B.f_Zqjw-1759081877-1.0.1.1-4RjLhmW6ADd7tJob8aGmW6Hkw.ANdKWru5LFi46rvd7NWNABdhV82Bf52IJzx4eFjn5I1RJ.zEoTv_KySR1h_Hjcsl32iWEPT3sCuSjRdUU; path=/; expires=Sun, 28-Sep-25 18:21:17 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None"
             },
             {
               "key": "Server",
@@ -760,11 +760,11 @@
               77,
               68,
               103,
-              122,
+              49,
               78,
               68,
-              73,
-              122,
+              99,
+              51,
               76,
               67,
               74,
@@ -781,13 +781,13 @@
               84,
               107,
               119,
+              79,
+              68,
+              69,
+              52,
               78,
               122,
-              107,
-              52,
-              77,
-              106,
-              77,
+              99,
               115,
               73,
               109,
@@ -1219,12 +1219,12 @@
               53,
               77,
               68,
-              99,
-              53,
+              103,
+              120,
               79,
               68,
-              73,
-              122,
+              99,
+              51,
               102,
               86,
               48,
@@ -1247,55 +1247,55 @@
               105,
               79,
               105,
-              73,
-              48,
-              89,
-              50,
-              85,
-              50,
+              74,
+              108,
               78,
-              71,
-              89,
-              49,
-              90,
-              83,
-              48,
-              50,
-              79,
               68,
-              65,
-              49,
+              89,
+              51,
+              79,
+              84,
+              103,
+              122,
+              77,
+              105,
+              48,
+              122,
+              89,
+              50,
+              70,
+              107,
               76,
               84,
               81,
-              51,
-              77,
-              106,
-              99,
-              116,
-              89,
-              106,
-              81,
-              48,
-              77,
-              121,
-              48,
-              51,
-              77,
+              120,
+              78,
               122,
-              103,
-              48,
-              78,
-              87,
-              70,
-              104,
-              79,
-              87,
-              89,
-              121,
-              78,
-              87,
               73,
+              116,
+              79,
+              71,
+              81,
+              120,
+              78,
+              121,
+              48,
+              50,
+              90,
+              68,
+              66,
+              106,
+              77,
+              84,
+              73,
+              53,
+              78,
+              84,
+              90,
+              109,
+              79,
+              71,
+              69,
               105,
               76,
               67,
@@ -1328,49 +1328,49 @@
               102,
               81,
               46,
-              95,
-              95,
+              109,
+              45,
               72,
-              81,
-              120,
-              121,
-              103,
-              100,
-              115,
-              104,
-              66,
-              81,
               55,
-              73,
-              120,
-              115,
-              72,
-              82,
-              77,
-              75,
-              66,
-              82,
-              99,
+              104,
+              45,
+              67,
+              103,
               86,
-              85,
-              122,
-              55,
+              52,
+              115,
+              82,
+              74,
+              84,
+              50,
+              67,
+              108,
+              80,
               66,
-              109,
               104,
-              109,
+              72,
+              56,
               68,
-              95,
-              67,
+              112,
+              119,
+              86,
+              87,
+              114,
+              77,
+              111,
+              52,
               97,
-              104,
-              76,
-              69,
+              45,
+              106,
+              112,
               95,
-              67,
-              66,
-              109,
-              103,
+              107,
+              110,
+              118,
+              56,
+              69,
+              54,
+              85,
               34,
               44,
               34,
@@ -1432,10 +1432,10 @@
               57,
               48,
               56,
-              51,
+              53,
               52,
-              50,
-              51,
+              55,
+              55,
               44,
               34,
               114,
@@ -1454,18 +1454,18 @@
               34,
               58,
               34,
-              102,
-              50,
-              50,
-              110,
-              111,
-              110,
-              51,
+              116,
+              109,
+              52,
+              120,
+              52,
+              103,
+              122,
+              117,
               108,
               51,
-              113,
               97,
-              111,
+              117,
               34,
               44,
               34,
@@ -1737,20 +1737,20 @@
               49,
               55,
               58,
+              53,
+              49,
+              58,
               49,
               55,
-              58,
-              48,
-              51,
               46,
-              52,
-              57,
-              48,
-              57,
-              55,
               56,
               49,
-              51,
+              52,
+              52,
+              48,
+              52,
+              49,
+              50,
               57,
               90,
               34,
@@ -2513,18 +2513,18 @@
               49,
               55,
               58,
+              53,
+              49,
+              58,
               49,
               55,
-              58,
-              48,
-              51,
               46,
-              52,
-              57,
-              50,
-              55,
-              52,
               56,
+              52,
+              48,
+              49,
+              51,
+              57,
               90,
               34,
               44,
@@ -2574,10 +2574,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 468,
+          "responseTime": 950,
           "responseSize": 2082
         },
-        "id": "1f88d7e8-07bc-4e7e-8394-74188ae93503",
+        "id": "88fc2164-a2b7-40b1-8feb-74531dbbfbd0",
         "assertions": [
           {
             "assertion": "Status code is 200",
@@ -2595,15 +2595,15 @@
       },
       {
         "cursor": {
-          "ref": "70972ab3-59af-4feb-b0df-4ebee54b8883",
+          "ref": "c6030b73-3464-4a70-82d6-513b2262223e",
           "length": 2,
           "cycles": 1,
           "position": 1,
           "iteration": 0,
-          "httpRequestId": "9be21740-83b4-4029-ba62-974a7013ba79"
+          "httpRequestId": "0e528734-f27d-40fc-a6be-b886054bcc42"
         },
         "item": {
-          "id": "c37e1a00-2857-425e-85a3-e5d4c338b617",
+          "id": "2104bb9e-58f4-4588-b32c-5287196ff6c1",
           "name": "2. Test Invalid Login",
           "request": {
             "url": {
@@ -2644,14 +2644,14 @@
             {
               "listen": "test",
               "script": {
-                "id": "b5b585d2-5de3-4df8-a05f-4b11efe1ab80",
+                "id": "d4fafbdf-38bd-4fe4-b135-4df7e45ac45c",
                 "type": "text/javascript",
                 "exec": [
                   "pm.test('Status code is 400 for invalid credentials', function () {",
                   "    pm.response.to.have.status(400);",
                   "});"
                 ],
-                "_lastExecutionId": "68254f41-738d-4ea4-92c1-efa5dcc02afb"
+                "_lastExecutionId": "3d83ec29-ea78-461a-be81-c4c30d1757fc"
               }
             }
           ]
@@ -2703,7 +2703,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "8bd079d6-404c-4beb-bfde-e74b14eceab3",
+              "value": "8d4f07b5-bb43-47aa-b9c3-899b848e5c39",
               "system": true
             },
             {
@@ -2734,13 +2734,13 @@
           }
         },
         "response": {
-          "id": "718f0628-0243-4ade-95b9-27d6891a9619",
+          "id": "680ceb67-72af-4eda-8633-efee9959ce8f",
           "status": "Bad Request",
           "code": 400,
           "header": [
             {
               "key": "Date",
-              "value": "Sun, 28 Sep 2025 17:17:03 GMT"
+              "value": "Sun, 28 Sep 2025 17:51:18 GMT"
             },
             {
               "key": "Content-Type",
@@ -2756,7 +2756,7 @@
             },
             {
               "key": "CF-Ray",
-              "value": "9864e461dd8ce0e9-GIG"
+              "value": "98651689fb8f6d5a-GIG"
             },
             {
               "key": "CF-Cache-Status",
@@ -2780,7 +2780,7 @@
             },
             {
               "key": "sb-request-id",
-              "value": "01999153-f92d-75f8-a52b-02c15d252a4c"
+              "value": "01999173-524b-7b87-bbc4-5e87662db9f2"
             },
             {
               "key": "X-Content-Type-Options",
@@ -2792,7 +2792,7 @@
             },
             {
               "key": "x-envoy-upstream-service-time",
-              "value": "1"
+              "value": "3"
             },
             {
               "key": "x-sb-error-code",
@@ -2800,7 +2800,7 @@
             },
             {
               "key": "Set-Cookie",
-              "value": "__cf_bm=5CQvlHOnZeWmK0AfLcQ5KBAg4VFL_cYpBWODxYCvJIE-1759079823-1.0.1.1-ORMyaf79dNGCv83yxTfbpxu4cYKyFS0QkKQU_w5vDTERwfQcAizNxiZwTMVqojs8MoZ.16OLOJyJFPyCY2CZHpqKAAThjwRCMKECC6hzk2A; path=/; expires=Sun, 28-Sep-25 17:47:03 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None"
+              "value": "__cf_bm=xlz9BqFcccL7VxtH4ZlwIF1SDGgORHazk6G3iybL4uA-1759081878-1.0.1.1-MkmzxGh3MnofQW80ry3pdymMQmhYb1XmtS8FEMoiWi8Iu8Vltr.21pEhtH.zgj3TuBxp7sDBM67AyCPRW7JgmiRhO_pegkRDrSpIYKYPwyA; path=/; expires=Sun, 28-Sep-25 18:21:18 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None"
             },
             {
               "key": "Server",
@@ -2898,10 +2898,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 128,
+          "responseTime": 157,
           "responseSize": 81
         },
-        "id": "c37e1a00-2857-425e-85a3-e5d4c338b617",
+        "id": "2104bb9e-58f4-4588-b32c-5287196ff6c1",
         "assertions": [
           {
             "assertion": "Status code is 400 for invalid credentials",

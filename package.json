@@ -12,7 +12,6 @@
     "dev": "vite",
     "test": "vitest",
     "test:postman": "bash scripts/test-postman.sh",
-    "test:postman:ci": "newman run postman/collection.json -e postman/environment.json --env-var baseUrl=$SUPABASE_URL --env-var anonKey=$SUPABASE_ANON_KEY --reporters cli,junit --reporter-junit-export test-results.xml",
     "type-check": "tsc -b",
     "lint": "eslint",
     "build": "tsc -b && vite build",
