@@ -1,0 +1,26 @@
+{
+    "id": "lista-desejos-env",
+    "name": "Lista de Desejos Environment",
+    "values": [
+      {
+        "key": "baseUrl",
+        "value": "{{SUPABASE_URL}}",
+        "enabled": true
+      },
+      {
+        "key": "anonKey", 
+        "value": "{{SUPABASE_ANON_KEY}}",
+        "enabled": true
+      },
+      {
+        "key": "accessToken",
+        "value": "",
+        "enabled": true
+      },
+      {
+        "key": "userId",
+        "value": "",
+        "enabled": true
+      }
+    ]
+  }
