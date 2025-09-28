@@ -69,8 +69,6 @@ CREATE TABLE lista_desejos (
   nome TEXT NOT NULL,
   valor INTEGER NOT NULL, -- valor em centavos
   link TEXT,
-  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-  updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
 -- Habilitar RLS (Row Level Security)
@@ -79,22 +77,6 @@ ALTER TABLE lista_desejos ENABLE ROW LEVEL SECURITY;
 -- Política: usuários só podem ver/editar seus próprios itens
 CREATE POLICY "Users can manage their own wishlist items" ON lista_desejos
   FOR ALL USING (auth.uid() = user_id);
-
--- Função para atualizar updated_at automaticamente
-CREATE OR REPLACE FUNCTION update_updated_at_column()
-RETURNS TRIGGER AS $$
-BEGIN
-  NEW.updated_at = NOW();
-  RETURN NEW;
-END;
-$$ language 'plpgsql';
-
--- Trigger para atualizar updated_at
-CREATE TRIGGER update_lista_desejos_updated_at
-  BEFORE UPDATE ON lista_desejos
-  FOR EACH ROW
-  EXECUTE FUNCTION update_updated_at_column();
-```
 
 ### 5. Execute o projeto
 ```bash
